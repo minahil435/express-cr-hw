@@ -14,9 +14,9 @@ app.use(express.json());
 app.use("/", indexRouter)
 app.use("/api/todo", todoRouter)
 
-app.listen(3000, function () {
-    console.log(`Server is running on PORT: ${3000}`);
-});
+// app.listen(3000, function () {
+//     console.log(`Server is running on PORT: ${3000}`);
+// });
 
 module.exports = app
 
