@@ -34,7 +34,7 @@ router.get("/get-todo-by-id/:id", function (req, res) {
     }
 });
 
-router.get("/get-all-todos/:done", function (req, res) {
+router.get("/get-todos-by-done/:done", function (req, res) {
     let filterKey = req.params.done
 
     let newDoneArray = todos.filter((item) => {
